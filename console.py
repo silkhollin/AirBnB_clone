@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-Module for console
+Module for the AirBnB app console
 """
 import cmd
 import re
@@ -53,7 +53,7 @@ def split_curly_braces(e_arg):
 
 class HBNBCommand(cmd.Cmd):
     """
-    HBNBCommand console class
+    HBNBCommand console main class
     """
     prompt = "(hbnb) "
     valid_classes = ["BaseModel", "User", "Amenity",
